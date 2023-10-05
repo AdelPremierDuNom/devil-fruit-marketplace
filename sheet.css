@@ -1,0 +1,58 @@
+:not(header) {
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+    margin: -1em;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.ajouter-au-panier {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 1em;
+    width: 30%;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+}
+
+.fruit  {
+    text-align: center;
+    width: 20em;
+    height: 20em;
+}
+main    {
+    border: 20em;
+}
